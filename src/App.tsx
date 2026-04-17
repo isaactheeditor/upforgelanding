@@ -53,7 +53,7 @@ export default function App() {
               </div>
             </div>
 
-            <button className="w-full bg-gradient-to-br from-primary-container to-primary text-on-primary-container font-label font-bold uppercase tracking-widest py-4 px-8 rounded-xl shadow-[0_0_30px_rgba(255,106,0,0.2)] hover:shadow-[0_0_50px_rgba(255,106,0,0.4)] transition-all duration-300 transform active:scale-95 text-lg">
+            <button onClick={() => window.location.href = 'https://upforge.pages.dev/'} className="w-full bg-gradient-to-br from-primary-container to-primary text-on-primary-container font-label font-bold uppercase tracking-widest py-4 px-8 rounded-xl shadow-[0_0_30px_rgba(255,106,0,0.2)] hover:shadow-[0_0_50px_rgba(255,106,0,0.4)] transition-all duration-300 transform active:scale-95 text-lg">
               QUERO ACESSO AO BETA
             </button>
           </div>
@@ -132,7 +132,7 @@ export default function App() {
            <h2 className="font-headline text-5xl md:text-6xl font-black text-on-surface uppercase tracking-tight">
             Torne-se o guerreiro que você está <span className="text-transparent bg-clip-text bg-gradient-to-b from-primary to-primary-container">destinado a ser</span>
            </h2>
-           <button className="bg-gradient-to-br from-primary-container to-primary text-on-primary-container font-headline font-bold uppercase tracking-[0.2em] py-5 px-10 rounded-xl shadow-[0_0_40px_rgba(255,106,0,0.3)] hover:shadow-[0_0_60px_rgba(255,106,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0 text-xl border border-primary-fixed-dim/50">
+           <button onClick={() => window.location.href = 'https://upforge.pages.dev/'} className="bg-gradient-to-br from-primary-container to-primary text-on-primary-container font-headline font-bold uppercase tracking-[0.2em] py-5 px-10 rounded-xl shadow-[0_0_40px_rgba(255,106,0,0.3)] hover:shadow-[0_0_60px_rgba(255,106,0,0.5)] transition-all duration-300 transform hover:-translate-y-1 active:translate-y-0 text-xl border border-primary-fixed-dim/50">
             COMEÇAR MINHA JORNADA
            </button>
           </div>
